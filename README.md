@@ -12,17 +12,19 @@ Import and use the `ByteLock` class:
 import ByteLock from './ByteLock';
 ```
 
-### 🔑 generateCipherKey(sender_id: string, receiver_id: string): number | null
-Generates a numeric key (0–49) from two string IDs.
+### 🔑 Generate Cipher Key
+Generates a numeric key from two string IDs.
 ```ts
-const key = ByteLock.generateCipherKey('user1', 'user2');
+const key = ByteLock.generateCipherKey('sender_id', 'receiver_id');
 ```
-### 🔒 cipherMessage(message: string, secret_key: number | null): string
+
+### 🔒 Encrypt Message
 Encrypts a plain text message using the provided key.
 ```ts
 const encrypted = ByteLock.cipherMessage('Hello!', key);
 ```
-### 🔓 decipherMessage(message: string, secret_key: number | null): string
+
+### 🔓 Decrypt Message
 Decrypts an encrypted message using the same key.
 ```ts
 const original = ByteLock.decipherMessage(encrypted, key);
