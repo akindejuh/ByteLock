@@ -19,7 +19,10 @@ const ByteLock = require("./src");
 ### 🔑 Generate Cipher Key
 Generates a numeric key from two string IDs.
 ```ts
-const key = ByteLock.generateCipherKey('sender_id', 'receiver_id');
+const sender_id = '680607cbac797b9ee1df7346';
+const receiver_id = '680607d7d5d6829865bf10cb';
+
+const key = ByteLock.generateCipherKey(sender_id, receiver_id);
 ```
 
 ### 🔒 Encrypt Message
