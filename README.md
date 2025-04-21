@@ -11,6 +11,10 @@ Import and use the `ByteLock` class:
 ```ts
 import ByteLock from './src';
 ```
+or
+```ts
+const ByteLock = require("./src");
+```
 
 ### 🔑 Generate Cipher Key
 Generates a numeric key from two string IDs.
