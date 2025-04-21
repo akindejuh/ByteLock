@@ -134,4 +134,4 @@ export class ByteLock {
   }
 }
 
-export default new ByteLock();
+module.exports = new ByteLock();

@@ -9,7 +9,7 @@ ByteLock is a lightweight utility for encrypting and decrypting messages using a
 ## 📦 Usage
 Import and use the `ByteLock` class:
 ```ts
-import ByteLock from './ByteLock';
+import ByteLock from './src';
 ```
 
 ### 🔑 Generate Cipher Key

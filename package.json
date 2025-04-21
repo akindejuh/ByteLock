@@ -1,0 +1,33 @@
+{
+  "name": "bytelock",
+  "version": "1.0.0",
+  "description": "A simple encryption/decryption algorithm",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc -p .",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akindejuh/ByteLock.git"
+  },
+  "keywords": [
+    "encryption",
+    "secure",
+    "cipher",
+    "decipher",
+    "decryption"
+  ],
+  "author": "akindejuh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akindejuh/ByteLock/issues"
+  },
+  "homepage": "https://github.com/akindejuh/ByteLock#readme"
+}
