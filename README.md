@@ -9,11 +9,7 @@ ByteLock is a lightweight utility for encrypting and decrypting messages using a
 ## 📦 Usage
 Import and use the `ByteLock` class:
 ```ts
-import ByteLock from './src';
-```
-or
-```ts
-const ByteLock = require("./src");
+import ByteLock from 'bytelock';
 ```
 
 ### 🔑 Generate Cipher Key
@@ -44,3 +40,6 @@ console.log(original); // Hello!
 - Only ASCII/ANSI characters (32–255) are encrypted.
 - Encryption is reversible only with the same key.
 - Not designed for production-grade security.
+
+## 🧑‍💻 CodeOwner
+@akindejuh
